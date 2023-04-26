@@ -1,5 +1,4 @@
-@import url(https://fonts.google.com/specimen/Raleway?query=Raleway);
-@import url(https://fonts.google.com/specimen/Nunito+Sans?query=Nunito+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway&display=swap');
 
 :root{
     --primary-color: #2C8C99;
@@ -7,8 +6,8 @@
     --accent1-color: #326771;
     --accent2-color: #42D9C8;
 
-    --heading-font: '______', Raleway;
-    --paragraph-font: '______', Nunito Sans;
+    --heading-font: 'Raleway';
+    --paragraph-font: 'Nunito Sans';
 
     --nav-background-color: #326771;
     --nav-link-color: #E2E8CE;
