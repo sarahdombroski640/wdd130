@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway&display=swap');
+
+:root {
+    --primary-color: #2C8C99;
+    --secondary-color: #E2E8CE;
+    --accent1-color: #326771;
+    --accent2-color: #42D9C8;
+
+    --heading-font: 'Raleway';
+    --paragraph-font: 'Nunito Sans';
+    --heading-color: #2C8C99;
+    --paragraph-color: black;
+
+    --nav-background-color: #326771;
+    --nav-link-color: #E2E8CE;
+    --nav-hover-link-color: #42D9C8;
+    --nav-hover-background-color: #2C8C99;
+}
+
+body {
+    width: 1000px;
+}
+
+.hero {
+	margin: 10px auto;
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    position: absolute;
+    top: 35%;
+    left: 300px;
+    background-color: var(--secondary-color);
+
+}
+
+article {
+    background-color: var(--primary-color);
+    opacity: .75;
+    font-family: var(--paragraph-font);
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    font-size: x-large;
+}
+article img {
+    float: right;
+    width: auto;
+    height: 250px;
+}
+
+h2 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    position: relative;
+}
+
+p {
+    color: var(--paragraph-color);
+    font-family: var(--paragraph-font);
+}
+
+section {
+    position: relative;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
