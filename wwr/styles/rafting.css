@@ -17,6 +17,21 @@
     --nav-hover-background-color: #2C8C99;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 250px auto;
+    border-bottom: solid 1px var(--accent1-color);
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    list-style: none;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+}
+
 body {
     width: 1000px;
 }
@@ -37,7 +52,7 @@ h1 {
     color: var(--heading-color);
     font-family: var(--heading-font);
     position: absolute;
-    top: 35%;
+    top: 300px;
     left: 300px;
     background-color: var(--secondary-color);
 
@@ -54,6 +69,7 @@ article {
     left: 10px;
     font-size: x-large;
 }
+
 article img {
     float: right;
     width: auto;
@@ -71,11 +87,52 @@ p {
     font-family: var(--paragraph-font);
 }
 
-section {
-    position: relative;
+.history {
+    text-align: center;
 }
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: var(--paragraph-font);
+}
+
+.picture-row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    margin-bottom: 20px;
+
+}
+
+.picture-row img {
+    width: 100px;
+    height: auto;
+    margin: 0;
+}
+
+
 
 a:link {
     text-decoration: none;
     font-family: var(--paragraph-font);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    flex-grow: 1;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
 }
