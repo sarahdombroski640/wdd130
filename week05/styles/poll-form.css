@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+header, h1 {
+    font-size: large;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    border: 15px;
+    border-radius: 15px;
+    background-color: floralwhite;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 15px;
+}
+
+legend {
+    padding: 15px;
+    font-size: 15px;
+}
+
+label {
+    text-align: right;
+    padding-right: 15px;
+}
+
+input, select, textarea {
+    padding: 15px;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 27px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 15px;
+    background-color: navy;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: green;
+}
+
+footer {
+    margin: 15px auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 5px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 15px;
+}
