@@ -151,6 +151,10 @@ footer p {
     flex-grow: 1;
 }
 
+footer a {
+    padding: 5px;
+}
+
 footer img {
     width: 40px;
     height: auto;
