@@ -113,7 +113,15 @@ p {
     margin: 0;
 }
 
+.picture-row-contact {
+    display: flex;
+    text-align: center;
+}
 
+.picture-row-contact img {
+    width: 200px;
+    height: auto;
+}
 
 a:link {
     text-decoration: none;
@@ -135,4 +143,30 @@ footer p {
 footer img {
     width: 40px;
     height: auto;
+}
+
+form {
+    border: 1px black solid;
+    font-family: var(--paragraph-font);
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: lightcyan;
+    display: grid;
+    padding: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 15px;
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    color: white;
+    border: none;
+    border-radius: 15px;
 }
