@@ -95,10 +95,11 @@ p {
     text-align: center;
 }
 
-.contact h1 {
-    color: var(--heading-color);
-    font-family: var(--heading-font);
+.h1 {
     position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
 }
 
 .pictures {
