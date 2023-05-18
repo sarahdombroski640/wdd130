@@ -91,6 +91,16 @@ p {
     text-align: center;
 }
 
+.contact {
+    text-align: center;
+}
+
+.contact h1 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    position: relative;
+}
+
 .pictures {
     display: flex;
     flex-direction: column;
