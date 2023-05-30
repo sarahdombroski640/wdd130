@@ -204,3 +204,21 @@ tfoot {
     font-family: var(--heading-font);
     font-size: larger;
 }
+
+.twoc {
+    display: grid;
+    align-items: center;
+}
+
+.right {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+.left {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
